@@ -48,6 +48,19 @@ Engine: pdfLaTeX
 
 TBA
 
+### Changing Titlepage Information
+
+This template provides commands to change the information the title page. All the commands available are shown in the table below.
+
+| Command                 | Description                       |
+| ----------------------- | --------------------------------- |
+| \author{authors}        | Sets the student name             |
+| \date{date}             | Sets the date of the report       |
+| \department{department} | Sets the department of the report |
+| \module{module}         | Sets the module of the report     |
+| \studentid{id}          | Sets the student ID               |
+| \title{title}           | Sets the report title             |
+
 ## License
 
 This repository including images except for Nottingham logo is license under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
