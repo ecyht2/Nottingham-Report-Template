@@ -1,11 +1,35 @@
-\ProvidePackage{nott-titlepage}
+\ProvidesPackage{nott-titlepage}
 \RequirePackage{graphicx}
 
+\setlength{\parindent}{0cm}
+
+\newcommand{\studentid}[1]{\renewcommand{\studentid}{#1}}
+\newcommand{\module}[1]{\renewcommand{\module}{#1}}
+\newcommand{\department}[1]{\renewcommand{\department}{#1}}
+
 \renewcommand{\maketitle}{
-    \begin{titlepage}
-        \begin{center}
-            \includegraphics[options]{img/Nottingham.png}
-        \end{center}
-        \Huge
-    \end{titlepage}
+\begin{titlepage}
+    \begin{center}
+        \includegraphics[width=0.5\linewidth]{img/Nottingham.png}
+
+        \Large\module
+        
+        \vspace{10mm}
+        \Huge\textbf{\@title}
+    
+        \vspace{10mm}
+        \huge\textbf{\@author}\\
+        
+        \vspace{10mm}
+        \huge\studentid
+
+        \vfill
+
+        \vspace{10mm}
+        \LARGE\department
+        
+        \vspace{10mm}
+        \LARGE\textbf{\@date}
+    \end{center}
+\end{titlepage}
 }
