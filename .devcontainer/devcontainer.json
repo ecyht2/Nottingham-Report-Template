@@ -9,13 +9,9 @@
     "vscode": {
       "extensions": [
 				"James-Yu.latex-workshop",
-        "mathematic.vscode-pdf",
         "valentjn.vscode-ltex"
 			],
       "settings": {
-        "workbench.editorAssociations": {
-          "*.pdf": "pdf.view"
-        }
       }
     }
   }
