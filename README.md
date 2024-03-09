@@ -61,6 +61,10 @@ This template provides commands to change the information the title page. All th
 | \studentid{id}          | Sets the student ID               |
 | \title{title}           | Sets the report title             |
 
+## Credits
+
+Thank you [sanjib-sen](https://github.com/sanjib-sen) for providing the dev container for github codespaces. The container can be found [here](https://github.com/sanjib-sen/weblatex-docker).
+
 ## License
 
 This repository including images except for Nottingham logo is license under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
