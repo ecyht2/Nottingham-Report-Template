@@ -1,6 +1,7 @@
 {
 	"recommendations": [
 		"James-Yu.latex-workshop",
-		"mathematic.vscode-pdf"
+		"mathematic.vscode-pdf",
+		"valentjn.vscode-ltex"
 	]
 }
