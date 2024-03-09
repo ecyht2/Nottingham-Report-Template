@@ -8,8 +8,14 @@
   "customizations": {
     "vscode": {
       "extensions": [
-				"James-Yu.latex-workshop"
-			]
+				"James-Yu.latex-workshop",
+        "mathematic.vscode-pdf"
+			],
+      "settings": {
+        "workbench.editorAssociations": {
+          "*.pdf": "pdf.view"
+        }
+      }
     }
   }
 }
