@@ -1,18 +1,14 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/ubuntu
 {
-  "name": "weblatex",
-	"image": "sanjibsen/weblatex:latest", // https://github.com/sanjib-sen/weblatex-docker
-	"remoteUser": "root", // Do not change this
-	"features": {},
-  "customizations": {
-    "vscode": {
-      "extensions": [
-				"James-Yu.latex-workshop",
-        "valentjn.vscode-ltex"
-			],
-      "settings": {
-      }
-    }
-  }
+	"name": "weblatex",
+	"features": {
+		"ghcr.io/prulloac/devcontainer-features/latex:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": ["valentjn.vscode-ltex"],
+			"settings": {}
+		}
+	}
 }
