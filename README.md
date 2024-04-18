@@ -48,6 +48,17 @@ Engine: pdfLaTeX
 
 TBA
 
+#### Github Codespaces and Gitpod
+
+This repository also provides support for Github Codespaces and gitpod workspaces.
+
+1. Sign in to GitHub
+2. Click on the `Use this template` button.
+3. Click `Create a new repository`.
+4. Clone the repository. See [Using git](https://github.com/ecyht2/Nottingham-Group-Project-Meeting-Minutes-Template#using-git)
+5. Create the new codespace/workspace using the config file in the repository.
+
+
 ### Changing Titlepage Information
 
 This template provides commands to change the information the title page. All the commands available are shown in the table below.
