@@ -9,6 +9,7 @@ Engine: pdfLaTeX
 ### Packages
 
 - graphicx
+- biblatex
 
 ## Usage
 
