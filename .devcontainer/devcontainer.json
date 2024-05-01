@@ -2,14 +2,14 @@
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/ubuntu
 {
     "name": "weblatex",
-    "build": {
-        "dockerfile": "../.gitpod.Dockerfile"
+    "features": {
+        "ghcr.io/prulloac/devcontainer-features/latex:1": {
+            "scheme": "full"
+        }
     },
-    "features": {},
     "customizations": {
         "vscode": {
             "extensions": [
-                "James-Yu.latex-workshop",
                 "valentjn.vscode-ltex"
             ],
             "settings": {}
