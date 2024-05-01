@@ -51,7 +51,7 @@ TBA
 
 #### Github Codespaces and Gitpod
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](gitpod.io/#https://github.com/ecyht2/Nottingham-Report-Template)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ecyht2/Nottingham-Report-Template)
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ecyht2/Nottingham-Report-Template)
 
